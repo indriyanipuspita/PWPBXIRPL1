@@ -16,7 +16,8 @@
         font-family: sans-serif;
       }
       body{
-        background-color: #e6e6fa;
+        background-image: url(img/purple.jpg);
+        background-size: cover;
       }
       a{
         color: #4b0082;
@@ -31,6 +32,11 @@
       }
       .jumbotron{
         background-color: #9370db;
+      }
+      .bg{
+        background-image: url(img/progrm.jpg);
+        background-size: cover;
+
       }
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -83,7 +89,7 @@
   </div>
     <div class="jumbotron p-4">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Let's Introduce our Members.</p>
+         <h1 class="display-4 font-italic">Let's Introduce our Members.</p>
       <p class="lead mb-0"><a href="https://getbootstrap.com/docs/4.3/examples/blog/#" class="text-white">Continue reading...</a></p>
     </div>
       </div>   
@@ -145,23 +151,23 @@
         </div>
       </div>
     </div>
-    <div class="col p-4 d-flex flex-column position-static">
-          <h3 class="mb-0">First Member</h3>
-          <p class="card-text mb-auto">      
-          <div class="card-body">
+    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+             <h3 class="mb-0">First Member</h3>
+          <p class="card-text mb-auto">          
             <ul class="list-unstyled mt-3 mb-5">
             <li>Nama Lengkap: <?php echo $nama_anggotasatu?></li>
-            <li>Umur:  <?php echo $umur_anggotasatu?> tahun</li>
-            <li>Tinggi Badan:  <?php echo $tinggi_anggotasatu?> cm</li>
+            <li>Umur: <?php echo $umur_anggotasatu?> tahun</li>
+            <li>Tinggi Badan : <?php echo $tinggi_anggotasatu?> cm</li>
             <li>Hobby: <?php echo $hobby_anggotasatu?></li>
             <li>Cita-cita: <?php echo $citacita_anggotasatu?></li>
           </ul></p>
         </div>
-    </div>
         <div class="col-auto d-none d-lg-block">
           <img class="bd-placeholder-img" width="200" height="250" "img src="img/feby.jpg">
         </div>
       </div>
+    </div>
       <div class="row mb-2">
     <div class="col-md-6">
       <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
@@ -181,21 +187,21 @@
         </div>
       </div>
     </div>
-    <div class="col p-4 d-flex flex-column position-static">
-      <div class="card-body">
-            <h3 class="mb-0">Third Member</h3>
-             <p class="card-text mb-auto">          
-              <ul class="list-unstyled mt-3 mb-5">
-                <li>Nama Lengkap: <?php echo $nama_anggotatiga?></li>
-                <li>Umur: <?php echo $umur_anggotatiga?> tahun</li>
-                <li>Tinggi Badan: <?php echo $tinggi_anggotatiga?> cm</li>
-                <li>Hobby: <?php echo $hobby_anggotatiga?></li>
-                <li>Cita-cita: <?php echo $citacita_anggotatiga?></li>
+             <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+             <h3 class="mb-0">Third Member</h3>
+          <p class="card-text mb-auto">          
+            <ul class="list-unstyled mt-3 mb-5">
+            <li>Nama Lengkap: <?php echo $nama_anggotatiga?></li>
+            <li>Umur: <?php echo $umur_anggotatiga?> tahun</li>
+            <li>Tinggi Badan : <?php echo $tinggi_anggotatiga?> cm</li>
+            <li>Hobby: <?php echo $hobby_anggotatiga?></li>
+            <li>Cita-cita: <?php echo $citacita_anggotatiga?></li>
           </ul></p>
         </div>
-      </div>
         <div class="col-auto d-none d-lg-block">
           <img class="bd-placeholder-img" width="200" height="250" "img src="img/rima.jpg">
+        </div>
       </div>
     </div>
       <center>Rata-rata tinggi badan = <?php echo $rata_rata?> cm</center>
