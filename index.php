@@ -99,13 +99,13 @@
               <div class="row">
               <div class="col-md-8 blog-main">
                 <h3 class="pb-4 mb-4 font-italic border-bottom">
-                  TO BE SUCCESS...
+                  Learning, and Trying Code to be Success...
                 </h3>
               <center>
                 <img width="565px" height="320px" src="img/codeee.gif">
               </center>
               </div>
-              <aside class="col-md-4 blog-sidebar">
+              <aside class="col-md-4 blog-sidebar"><br><br><br>
                 <div class="p-4 mb-3 bg-light rounded">
                   <h4 class="font-italic">Motivation😉</h4>
                     <p class="mb-0">"Everybody in this country should learn to program a computer, because it teaches you how to think." - Steve Jobs</p><br>

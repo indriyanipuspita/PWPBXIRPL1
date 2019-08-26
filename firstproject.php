@@ -90,7 +90,7 @@
     <div class="jumbotron p-4">
     <div class="col-md-6 px-0">
          <h1 class="display-4 font-italic">Let's Introduce our Members.</p>
-      <p class="lead mb-0"><a href="https://getbootstrap.com/docs/4.3/examples/blog/#" class="text-white">Continue reading...</a></p>
+          <p class="lead mb-0"><a href="https://getbootstrap.com/docs/4.3/examples/blog/#" class="text-white">Continue reading...</a></p>
     </div>
       </div>   
         </div>
@@ -187,9 +187,9 @@
         </div>
       </div>
     </div>
-             <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-             <h3 class="mb-0">Third Member</h3>
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <h3 class="mb-0">Third Member</h3>
           <p class="card-text mb-auto">          
             <ul class="list-unstyled mt-3 mb-5">
             <li>Nama Lengkap: <?php echo $nama_anggotatiga?></li>
