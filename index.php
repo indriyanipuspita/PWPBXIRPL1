@@ -13,30 +13,40 @@
       .head{
         color: #4b0082;
         font-size: 25;
-        font-family: sans-serif;
+        font-family: cursive;
       }
       body{
-        background-image: url(img/purple.jpg);
+        background-image: url(img/abstrak.png);
         background-size: cover;
       }
       a{
         color: #4b0082;
         font-size: 15;
-        font-family: sans-serif;
+        font-family: cursive;
       }
       h1{
-        color: #fafafa;
+        color: #4b0082;
+        font-family: cursive;
+      }
+      h2{
+        font-family: cursive;
       }
       h3{
         color: #4b0082;
+        font-family: cursive;
+      }
+      h4{
+        font-family: cursive;
+        color: #4b0082;
+      }
+      p{
+        font-family: cursive;
+        color: #000;
       }
       .jumbotron{
-        background-color: #9370db;
+        background-image: url(img/purple_.gif);
+        background-size: contain;
       }
-/*      .bg{
-        background-image: url(img/pt.jpg);
-        background-size: cover;
-      }*/
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -62,12 +72,13 @@
         <div class="row flex-nowrap justify-content-between align-items-center">
           <div class="head">
             <h2><i>SOFTWARE ENGINEERING</h2></i>
+            <a href="index.php">Back..</a>
     </div>
         <div class="col-2 pt-1">
           <a class="text-purple" href="firstproject.php">First Project</a>
         </div>
         <div class="col-2 text-purple">
-        <a class="blog-header-logo text-purple" href="#">Second Project</a>
+        <a class="blog-header-logo text-purple" href="secondproject.php">Second Project</a>
         </div>
         <div class="col-2 text-purple">
         <a class="blog-header-logo text-purple" href="#">Third Project</a>
@@ -112,7 +123,7 @@
                     <p>😍💭🤣</p>
                 <div class="p-4 mb-3 bg-light rounded">
                   <center>
-                    <p class="mb-0"><img width="180" height="165" src="img/devl.gif"></p><br>
+                    <p class="mb-0"><img width="180" height="165" src="img/city.gif"></p><br>
                   </center>
               </div>
               </div>
