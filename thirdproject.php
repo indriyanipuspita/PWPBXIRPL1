@@ -49,7 +49,6 @@
         user-select: none;
       }
       .box{
-        background-image: url(img/purple.jpg);
         border-radius: 25px;
         border: 10px;
         padding: 50px;
