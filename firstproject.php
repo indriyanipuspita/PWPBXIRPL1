@@ -83,7 +83,7 @@
         <a class="blog-header-logo text-purple" href="secondproject.php">Second Project</a>
         </div>
         <div class="col-2 text-purple">
-        <a class="blog-header-logo text-purple" href="#">Third Project</a>
+        <a class="blog-header-logo text-purple" href="thirdproject.php">Third Project</a>
         </div>
       <div class="col-3 d-flex justify-content-end align-items-center">
         <a class="text-green" href="https://getbootstrap.com/docs/4.3/examples/blog/#">
